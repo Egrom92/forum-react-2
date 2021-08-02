@@ -1,0 +1,20 @@
+.Rating {
+    margin-left: auto;
+}
+.Rating input {
+    width: 80px;
+    pointer-events: none;
+    cursor: none;
+}
+.btn-outline-primary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-primary:hover {
+    color: #b9b9b970;
+    background-color: #77262640;
+    border-color: #b9b9b926;
+}
+.btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: none;
+}
