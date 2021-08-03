@@ -9,8 +9,8 @@ const initialState = {
         },
         {
             id: 2,
-            title: 'Post title number 1',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque minima, repudiandae sunt vel veritatis! Accusantium consequuntur, distinctio, dolores dolorum eaque fugit in labore magni maxime modi nam possimus praesentium quibusdam sit tempore vero voluptatum. Atque cumque distinctio eius optio sit veniam vitae? A adipisci cum deserunt, dolor ea eligendi eos esse ex excepturi harum in incidunt iure laudantium libero magni mollitia nemo nostrum officia provident quasi quibusdam quisquam sequi, tenetur unde voluptatum. Accusantium amet eos fuga ipsam iusto modi qui temporibus totam vero.',
+            title: 'Post title number 2',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque minima, repudiandae sunt vel veritatis! Accusantium consequuntur, distinctio, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque minima, repudiandae sunt vel veritatis! Accusantium consequuntur, distinctio, dolores dolorum eaque fugit in labore magni maxime modi nam possimus praesentium quibusdam sit tempore vero voluptatum. Atque cumque distinctio eius optio sit veniam vitae? A adipisci cum deserunt, dolor ea eligendi eos esse ex excepturi harum in incidunt iure laudantium libero magni mollitia nemo nostrum officia provident quasi quibusdam quisquam sequi, tenetur unde voluptatum. Accusantium amet eos fuga ipsam iusto modi qui temporibus totam vero magni mollitia nemo nostrum officia provident quasi quibusdam quisquam sequi, tenetur unde voluptatum.',
         }
     ]
 };

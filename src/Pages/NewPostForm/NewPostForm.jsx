@@ -17,6 +17,12 @@ export default function NewPostForm(props) {
         setContent(e.target.value)
     }
 
+    const onAdd = () => {
+        dispatch(add({title, content}))
+        setTitle('')
+        setContent('')
+    }
+
     return (
         <div className="row mt-5 justify-content-center">
             <div className="col-6">
@@ -28,7 +34,7 @@ export default function NewPostForm(props) {
                     <label htmlFor="postText" className="form-label">Content</label>
                     <textarea value={content} onChange={changeContentHandler}  className="form-control" id="postText" rows="5"/>
                 </div>
-                <button onClick={() => dispatch(add({title, content}))} type="button" className="mt-1 btn btn-outline-secondary">Send</button>
+                <button onClick={() => onAdd() } type="button" className="mt-1 btn btn-outline-secondary">Send</button>
             </div>
         </div>
     )

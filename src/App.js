@@ -12,6 +12,8 @@ function App() {
 
     const allPosts = useSelector(state => state.posts.list)
 
+
+
     return (
         <div className="App mt-5">
             <div className="container">
@@ -21,7 +23,7 @@ function App() {
                         <Route path='/' exact render={() => <PostArchive posts={allPosts}/>}/>
                         <Route path='/new-post' exact render={()=> <NewPostForm/>}/>
                         <Route path='/log-in' exact render={LogIn}/>
-                        <Route path='/single-post' exact render={()=><SinglePost/>}/>
+                        <Route path='/single-post-:id' exact render={()=><SinglePost posts={[...allPosts]} />}/>
                     </Switch>
                 </Router>
             </div>

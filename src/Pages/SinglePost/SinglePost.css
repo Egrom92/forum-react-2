@@ -1,0 +1,6 @@
+.comments {
+    margin-top: 50px;
+}
+.comments .Comment:not(:last-child) {
+    margin-bottom: 20px;
+}
