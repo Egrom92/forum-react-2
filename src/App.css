@@ -5,3 +5,33 @@ body {
   color: #b9b9b9;
 }
 
+.bi {
+  transition: all ease-out .3s;
+  color: #b9b9b9;
+  font-size: 20px;
+}
+.bi.bi-trash {
+  cursor: pointer;
+}
+.btn-card-action {
+  padding: 2px 7px;
+}
+.btn-card-action:hover {
+  color: #b9b9b970;
+  background-color: #77262640;
+  border-color: #b9b9b926;
+}
+.btn-card-action:hover i {
+  color: #fff;
+}
+.modal-content {
+  background-color: #292d33;
+}
+.btn-close {
+  color: #b9b9b9;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

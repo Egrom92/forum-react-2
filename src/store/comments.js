@@ -59,6 +59,9 @@ export const commentsSlice = createSlice({
         remove(state, action) {
             state.list = state.list.filter((comment) => comment.id !== action.payload);
         },
+        edit(state, action) {
+
+        },
         removeAll(state, action) {
 
         },
@@ -67,14 +70,16 @@ export const commentsSlice = createSlice({
                 if(comment.id === action.payload) {
                     comment.rating = comment.rating + 1
                 }
+                return state
             })
         },
         decreaseRating(state, action) {
 
             state.list.map(comment => {
-                if(comment.id === action.payload) {
+                if(comment.id === action.payload && comment.rating !== 0) {
                     comment.rating = comment.rating - 1
                 }
+                return state
             })
 
             state.list.map(comment => comment.id === action.payload && comment.rating - 1)
