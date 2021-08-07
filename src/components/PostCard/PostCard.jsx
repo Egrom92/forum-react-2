@@ -13,7 +13,7 @@ export default function PostCard(props) {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{excerpt}...</p>
-                    <NavLink to={"/single-post-" + id} exact className="btn btn-secondary">Go somewhere</NavLink>
+                    <NavLink to={"post/" + id} exact className="btn btn-secondary">Go somewhere</NavLink>
                 </div>
             </div>
         </div>

@@ -1,10 +1,11 @@
 import React from 'react'
-import PostCard from './PostCard/PostCard';
-// import {useSelector} from 'react-redux';
+import {PostCard} from '../../components';
+import {useSelector} from 'react-redux';
 
 export default function PostArchive(props) {
 
-    const {posts} = props
+    const posts = useSelector(state => state.posts.list)
+
 
     return (
         <div className='row mt-5'>

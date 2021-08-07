@@ -1,6 +1,6 @@
 import React from 'react'
-import './Comment.css'
-import Rating from '../Rating/Rating';
+import './comment.css'
+import {Rating} from '../';
 
 
 export default function Comment(props) {

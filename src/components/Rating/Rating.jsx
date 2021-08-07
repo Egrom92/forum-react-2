@@ -1,5 +1,5 @@
 import React from 'react'
-import './Rating.css'
+import './rating.css'
 
 export default function Rating(props) {
     const {rating, onInc, onDec} = props

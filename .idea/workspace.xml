@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa4d7612-1032-4a60-8157-1076d623bddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/PostArchive/PostArchive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Comment/Comment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SinglePost/Comment/Comment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Comment/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SinglePost/Comment/Comment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/CommentForm/CommentForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SinglePost/CommentForm/CommentForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Rating/Rating.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SinglePost/Rating/Rating.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/SinglePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/SinglePost/SinglePost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/LogIn/LogIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/LogIn/LogIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LogIn/LogIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/NewPostForm/NewPostForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LogIn/LogIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/NewPostForm/NewPostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewPostForm/NewPostForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PostArchive/PostArchive.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewPostForm/NewPostForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PostArchive/PostArchive.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostArchive/PostArchive.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PostArchive/PostCard/PostCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostCard/PostCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/PostArchive/PostCard/PostCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostCard/PostCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Comment/Comment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comment/Comment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Comment/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comment/Comment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/CommentForm/CommentForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentForm/CommentForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/CommentForm/CommentForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentForm/CommentForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Rating/Rating.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/Rating/Rating.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/SinglePost.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SinglePost/SinglePost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/SinglePost/SinglePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SinglePost/SinglePost.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Pages" />
       <recent name="$PROJECT_DIR$/src/components/SinglePost/Comment" />
@@ -90,7 +99,7 @@
       <workItem from="1627917587899" duration="3661000" />
       <workItem from="1627922382883" duration="9320000" />
       <workItem from="1628017037691" duration="6871000" />
-      <workItem from="1628085341415" duration="5672000" />
+      <workItem from="1628085341415" duration="8587000" />
     </task>
     <servers />
   </component>

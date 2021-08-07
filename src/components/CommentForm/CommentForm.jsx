@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './CommentForm.css'
+import './commentForm.css'
 
 export default function CommentForm(props) {
     const {onAdd} = props;

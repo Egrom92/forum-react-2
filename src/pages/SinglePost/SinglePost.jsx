@@ -1,7 +1,7 @@
 import React from 'react'
-import './SinglePost.css'
-import Comment from './Comment/Comment';
-import CommentForm from './CommentForm/CommentForm';
+import './singlePost.css'
+import Comment from '../../components/Comment/Comment';
+import CommentForm from '../../components/CommentForm/CommentForm';
 import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from 'react-redux';
 import {decreaseRating, increaseRating, add, remove} from '../../store/comments';
