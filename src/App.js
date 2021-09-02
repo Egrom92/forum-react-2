@@ -14,10 +14,10 @@ function App() {
                 <Router>
                     <Menu/>
                     <Switch>
-                        <Route path='/' exact render={() => <PostArchive/>}/>
-                        <Route path='/new-post' exact render={NewPostForm}/>
-                        <Route path='/log-in' exact render={LogIn}/>
-                        <Route path='/post/:id' exact render={()=><SinglePost/>}/>
+                        <Route path='/' exact component={PostArchive}/>
+                        <Route path='/new-post' exact component={NewPostForm}/>
+                        <Route path='/log-in' exact component={LogIn}/>
+                        <Route path='/post/:id' exact component={SinglePost}/>
                     </Switch>
                 </Router>
             </div>

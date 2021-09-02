@@ -13,22 +13,13 @@ export default function SinglePost(props) {
     const params = useParams();
     const postID = parseInt(params.id);
 
-    const allPosts = useSelector(state => state.posts.list)
+    const post = useSelector(state => state.posts.list).find(el => el.id === postID)
     const allComments = useSelector(state => state.comments.list)
     const postComments = allComments.filter(comment => comment.postID === postID)
 
     const dispatch = useDispatch()
 
-    const post = allPosts.find(el => el.id === postID)
-
     postComments.sort((a, b) => a.rating < b.rating ? 1 : -1);
-
-    const onAddNewComment = (content) => {
-        dispatch(add({postID, content}))
-    }
-    const onRemoveComment = (id) => {
-        dispatch(remove(id))
-    }
 
     const {title, content} = post
 
@@ -38,15 +29,14 @@ export default function SinglePost(props) {
             <p>{content}</p>
             <div className='comments'>
                 {postComments.map((c, i) => <Comment
-                    key={i}
+                    key={c.id}
                     onInc={()=>dispatch(increaseRating(c.id))}
                     onDec={()=>dispatch(decreaseRating(c.id))}
-                    content={c.content}
-                    rating={c.rating}
-                    onRemove={()=>onRemoveComment(c.id)}/>
+                    {...c}
+                    onRemove={(id) => { dispatch(remove(id)) }}/>
                     )}
             </div>
-            <CommentForm onAdd={onAddNewComment}/>
+            <CommentForm onAdd={(content) => { dispatch(add({postID, content})) }}/>
         </>
     )
 }
