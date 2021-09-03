@@ -3,7 +3,7 @@ import './comment.css'
 import {Rating} from '../';
 
 
-export default function Comment(props) {
+export default function Index(props) {
     const {content, rating, onInc, onDec, onRemove} = props;
 
 
@@ -13,12 +13,8 @@ export default function Comment(props) {
                 <div className="card-header">
                     <div className="authorName">Comment author name</div>
 
-
-                    <button className="btn btn-outline-secondary btn-card-action">
-                        <i className="bi bi-pencil-square"/>
-                    </button>
                     <button type="button" className="btn btn-outline-secondary btn-card-action ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <i className="bi bi-trash"/>
+                        <i className="fas fa-trash"/>
                     </button>
 
                     <Rating

@@ -3,7 +3,7 @@ import './menu.css'
 import {NavLink} from "react-router-dom";
 
 
-export default function Menu(props) {
+export default function Index(props) {
     return (
 
         <ul className="nav justify-content-end">

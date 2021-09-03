@@ -1,7 +1,6 @@
 import React from 'react'
 import './singlePost.css'
-import Comment from '../../components/Comment/Comment';
-import CommentForm from '../../components/CommentForm/CommentForm';
+import {Comment, CommentForm} from '../../components';
 import {useParams} from "react-router-dom";
 import {useDispatch, useSelector} from 'react-redux';
 import {decreaseRating, increaseRating, add, remove} from '../../store/comments';
@@ -19,6 +18,10 @@ export default function SinglePost(props) {
 
     const dispatch = useDispatch()
 
+  const onRemoveComment = (id) => {
+    dispatch(remove(id))
+  }
+
     postComments.sort((a, b) => a.rating < b.rating ? 1 : -1);
 
     const {title, content} = post
@@ -33,7 +36,7 @@ export default function SinglePost(props) {
                     onInc={()=>dispatch(increaseRating(c.id))}
                     onDec={()=>dispatch(decreaseRating(c.id))}
                     {...c}
-                    onRemove={(id) => { dispatch(remove(id)) }}/>
+                    onRemove={()=>onRemoveComment(c.id)}/>
                     )}
             </div>
             <CommentForm onAdd={(content) => { dispatch(add({postID, content})) }}/>

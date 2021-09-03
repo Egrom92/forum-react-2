@@ -4,8 +4,17 @@
     <list default="true" id="aa4d7612-1032-4a60-8157-1076d623bddf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewPostForm/NewPostForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewPostForm/NewPostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SinglePost/SinglePost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SinglePost/SinglePost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comment/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comment/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CommentForm/CommentForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentForm/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostCard/PostCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LogIn/LogIn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NewPostForm/NewPostForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostArchive/PostArchive.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SinglePost/SinglePost.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +99,7 @@
       <workItem from="1629142907708" duration="878000" />
       <workItem from="1629298704006" duration="519000" />
       <workItem from="1630501602320" duration="6000" />
+      <workItem from="1630606915842" duration="3640000" />
     </task>
     <servers />
   </component>

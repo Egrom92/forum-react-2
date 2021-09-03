@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './commentForm.css'
 
-export default function CommentForm(props) {
+export default function Index(props) {
     const {onAdd} = props;
 
     const [content, setContent] = useState('')

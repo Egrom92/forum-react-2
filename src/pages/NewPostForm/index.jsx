@@ -7,8 +7,6 @@ export default function NewPostForm(props) {
 
     const dispatch = useDispatch()
 
-    const [count, setCount] = useState(0);
-
     const [title, setTitle] = useState('')
     const [content, setContent] = useState('')
 
@@ -20,17 +18,6 @@ export default function NewPostForm(props) {
     }, [title, content])
 
 
-
-    // const onAdd = () => {
-    //     console.log('test')
-    //     dispatch(add({title, content}))
-    //     setTitle('')
-    //     setContent('')
-    // }
-
-    const clickHandler = () => {
-        setCount(count + 1)
-    }
 
     return (
         <div className="row mt-5 justify-content-center">
@@ -45,8 +32,6 @@ export default function NewPostForm(props) {
                 </div>
                 <button onClick={() => onAdd() } type="button" className="mt-1 btn btn-outline-secondary">Send</button>
             </div>
-            <h2>{count}</h2>
-            <button onClick={clickHandler}>+</button>
         </div>
     )
 }

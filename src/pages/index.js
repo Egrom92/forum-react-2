@@ -1,7 +1,7 @@
-import LogIn from './LogIn/LogIn.jsx'
-import NewPostForm from './NewPostForm/NewPostForm.jsx'
-import PostArchive from './PostArchive/PostArchive.jsx'
-import SinglePost from './SinglePost/SinglePost.jsx'
+import LogIn from './LogIn'
+import NewPostForm from './NewPostForm'
+import PostArchive from './PostArchive'
+import SinglePost from './SinglePost'
 
 
 export {LogIn, NewPostForm, PostArchive, SinglePost}
